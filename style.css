@@ -1,0 +1,35 @@
+nav{
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid;
+    margin: 15px;background: linear-gradient(to right,
+    orange, yellow );
+
+}
+nav > a{
+
+    font-size: 1.1rem;
+    margin: 20px;
+    padding: 10px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .panel > a{
+    display: flex;
+  }
