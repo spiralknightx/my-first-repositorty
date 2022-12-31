@@ -51,10 +51,21 @@ background: white;
     background-color: black;
 }
 #ender{
-    padding: 120px;
-    margin: 20px;
-    width: 50%;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
     height: 20%;
     border: 3px solid;
+    border-radius: 3px;
 
+}
+#theside{
+    float: right;
+    background-color: black;
+    padding: 60px 60px 500px;
+    margin: 50px;
+    width: 30%;
+    height: 50%;
+    border: 3px solid;
+    border-radius: 3px;
 }
